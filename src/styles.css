@@ -4918,3 +4918,18 @@ label {
   background: #e34f58;
   transform: rotate(135deg);
 }
+
+
+/* Separate lock and home screen photos for the default preview. */
+.wallpaper-photo {
+  background-image: url("./home-paris.png");
+  background-position: 56% center;
+  background-size: cover;
+}
+.device-lock {
+  background-image:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.05) 45%, rgba(0, 0, 0, 0.24)),
+    url("./lockscreen-dogs.jpg");
+  background-size: cover, cover;
+  background-position: center, 54% center;
+}
