@@ -4933,3 +4933,7 @@ label {
   background-size: cover, cover;
   background-position: center, 54% center;
 }
+
+.wallpaper-photo {
+  background-image: url("./lockscreen-dogs.jpg");
+}
