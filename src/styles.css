@@ -4937,3 +4937,9 @@ label {
 .wallpaper-photo {
   background-image: url("./lockscreen-dogs.jpg");
 }
+
+
+/* Ensure the default home screen uses the dog photo. */
+.phone-screen.wallpaper-photo {
+  background-image: url("./lockscreen-dogs.jpg") !important;
+}
